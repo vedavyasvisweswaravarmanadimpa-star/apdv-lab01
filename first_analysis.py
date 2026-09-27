@@ -11,7 +11,7 @@ x="City",
 y="Value",
 kind="bar",
 legend=False,
-title="Example APDV Visualisation"
+title="My First APDV Visualisation"
 )
 plt.ylabel("Value")
 plt.tight_layout()
