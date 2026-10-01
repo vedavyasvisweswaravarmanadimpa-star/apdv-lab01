@@ -1,0 +1,11 @@
+numbers = [2, 21, 12, 8, 5, 31]
+
+i = 0                          # i points to the first number of the pair
+while i < len(numbers):
+
+    j = i + 1                  # j starts AFTER i (this is the only change)
+    while j < len(numbers):
+        print(numbers[i], numbers[j])
+        j = j + 1              # move j to the next number
+
+    i = i + 1                  # move i to the next number

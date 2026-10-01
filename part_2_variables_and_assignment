@@ -1,0 +1,14 @@
+x = 12
+y = 7.4
+ 
+x -= y
+print(x, y)
+ 
+y = y - x + 7
+z = 1
+ 
+x *= 2 + z
+print(x, y)
+ 
+x += x * y
+print(x, y)
